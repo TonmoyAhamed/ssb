@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+.m-auto{
+    margin: auto;
+}
+.ml-auto{
+    margin-left: auto;
+}
+.mr-auto{
+    margin-right: auto;
+}
+.wd-100{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.justify-content-space-between{
+    justify-content: space-between;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-self-center{
+    align-self: center;
+}
+.col-6{flex:0 0 auto;width:50%}
+.text-center{
+    text-align: center;
+}
+.col-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+.col-7{
+    -ms-flex: 0 0 58.333333%;
+  flex: 0 0 58.333333%;
+  max-width: 58.333333%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+/*====================================*/
+/* header start*/
+/*====================================*/
+
+/*====================================*/
+/* header end*/
+/*====================================*/
+header {
+    padding: 16px 0 100px;
+  }
+.menu{
+
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li:not(:last-child) {
+    margin-right: 19px;
+  }
+.menu ul li a {
+    font-size: 1rem;
+  }
+  .reg-btn a {
+    border: 1px solid white;
+    color: #fff;
+    padding: 14px 40px 16px;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 20px;
+    display: block;
+  }
+/*====================================*/
+/* banner start*/
+/*====================================*/
+.banner {
+    width: 100%;
+    background-color: #222e5e;
+    color: #fff;
+    padding: 0 0 140px;
+  }
+.banner-content h1 {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 1.13;
+    letter-spacing: normal;
+    margin-bottom: 32px;
+    color: #fff;
+  }
+  .banner-content p {
+    font-size: 16px;
+    text-align: left;
+    color: #fff;
+    line-height: 30px;
+    margin-bottom: 42px;
+  }
+  .banner-content a {
+    text-align: center;
+    font-size: 18px;
+    border-radius: 20px;
+    background: #f05b1d;
+    padding: 14px 40px 16px;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+  }
+/*====================================*/
+/* banner end*/
+/*====================================*/
+
+/*====================================*/
+/* meta start*/
+/*====================================*/
+.meta-item {
+    flex-grow: 1;
+    padding: 60px 40px;
+  }
+.meta-item h2 {
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  .meta-item p {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+/*====================================*/
+/* meta end*/
+/*====================================*/
+
+/*====================================*/
+/* feature start*/
+/*====================================*/
+section.features {
+    text-align: center;
+    padding: 100px 0px;
+  }
+  .feature-heading h6 {
+    color: #f05b1d;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  .feature-heading h2 {
+    color: #4d4d4d;
+    font-size: 32px;
+    text-transform: unset;
+    margin-bottom: 20px;
+  }
+  .feature-heading p {
+    color: #4d4d4d;
+    font-size: 18px;
+    letter-spacing: normal;
+    text-transform: unset;
+    width: 100%;
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  .feature-box-content h5 {
+    text-transform: unset;
+    margin-bottom: 12px;
+    font-size: 20px;
+  }
+  .feature-box-content p {
+    color: #4d4d4d;
+    font-size: 16px;
+    letter-spacing: normal;
+    text-transform: unset;
+    line-height: 28px;
+  }
+  .single-feature-item {
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 10%);
+  }
+  .feature-box-content {
+    text-align: center;
+    margin-top: 18px;
+  }
+  .f-bg-green {
+    background: #21b573;
+  }
+  .jf-line {
+    height: 0px;
+    width: 70px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+    margin: 0 auto;
+  }
+  .single-feature-item:hover .jf-line {
+    height: 8px;
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+    margin: 10px auto;
+  }
+  .f-bg-orange {
+    background: #f05b1d;
+  }
+  .f-bg-blue {
+    background: #1375f7;
+  }
+  .f-bg-yellow {
+    background: #fea829;
+  }
+  .feature-heading {
+    margin-bottom: 60px;
+    text-align: center;
+  }
+/*====================================*/
+/* feature end*/
+/*====================================*/
+
+/*====================================*/
+/* featured course start*/
+/*====================================*/
+.embed-responsive {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+  }
+/*====================================*/
+/* feature end*/
+/*====================================*/
